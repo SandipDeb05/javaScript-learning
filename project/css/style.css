@@ -75,3 +75,7 @@
     padding: 5px;
     margin: 5px;
   }
+  .newItem{
+    background-color: rgba(27, 134, 27, 0.849);
+    color: #fff;
+  }

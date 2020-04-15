@@ -17,7 +17,7 @@ function onSubmit(e){
     }else{
         const li = document.createElement('li');
         li.appendChild(document.createTextNode(`${nameInput.value} : ${emailInput.value}`));
-        userList.appendChild(li);
+        userList.appendChild(li).classList.add("newItem");
 
         //clear the fields
         nameInput.value = "";
